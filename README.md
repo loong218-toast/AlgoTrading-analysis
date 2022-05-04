@@ -19,7 +19,8 @@ Green line = Weekly moving average (WMA) <br />
   
 We take the first 10 years data and calculate the overall results : 
 
-<img src="https://user-images.githubusercontent.com/77558802/166476885-c173a169-1441-4fe7-8acc-76497ef3f13b.png" width=80%>
+<img src="https://user-images.githubusercontent.com/77558802/166701104-2a42aab8-7574-442d-a7b9-3296b22f3b97.png" width=80%>
+
 
 Within 10 years of historical data, we get total valid 5829 positions. <br />
 Yellow points are winning trades and dark blue points are losing trades. <br />
@@ -44,7 +45,7 @@ Even we have a low chance of winning, but we have a good risk/reward ratio.
 
 To improve the performance, I classify all positions that are closed to each other (24 hours), as I noticed cluster patterns in those positions.
 
-<img src="https://user-images.githubusercontent.com/77558802/166474739-6f4543ab-1805-4aad-9671-76b1b3174c06.png" width=80%>
+<img src="https://user-images.githubusercontent.com/77558802/166701292-622aab04-5a79-4361-af95-94fe83e6ac54.png" width=80%>
 
 Our winning chance increases from 29% (1683/2944) to 54.4% (816/1499). <br />
 We get only 3216 scores, but I find it very consistent and it also loses less scores.
