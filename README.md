@@ -64,6 +64,6 @@ The program automatically opens and closes position depending on the market cond
 It handles everything for you, and the only thing you need to do is drinking Mai Tai on the beach.
 
 # Resources
-Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, Datetime, Talib, Schedule, Pytz, Isoweek
+Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, Metatrader5, Datetime, Talib, Schedule, Pytz, Isoweek
 
 
