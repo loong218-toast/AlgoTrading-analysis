@@ -1,6 +1,8 @@
 # Trading-analysis
+[Notebook_v2](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Trading_Analysis-v2.ipynb)  <br />
+Original version is too large to view on Github, v2 version removed all Plotly plots. <br />
 
-(Trading with time series forecasting using LSTM and some other calculations.)
+(Trading with time series forecasting using LSTM and some other calculations.) <br />
 
 First, we have the gold market with 12 years of historical data (2010-2022) :
 
@@ -17,7 +19,8 @@ Green line = Weekly moving average (WMA) <br />
   
 We take the first 10 years data and calculate the overall results : 
 
-<img src="https://user-images.githubusercontent.com/77558802/166476885-c173a169-1441-4fe7-8acc-76497ef3f13b.png" width=80%>
+<img src="https://user-images.githubusercontent.com/77558802/166701104-2a42aab8-7574-442d-a7b9-3296b22f3b97.png" width=80%>
+
 
 Within 10 years of historical data, we get total valid 5829 positions. <br />
 Yellow points are winning trades and dark blue points are losing trades. <br />
@@ -42,7 +45,7 @@ Even we have a low chance of winning, but we have a good risk/reward ratio.
 
 To improve the performance, I classify all positions that are closed to each other (24 hours), as I noticed cluster patterns in those positions.
 
-<img src="https://user-images.githubusercontent.com/77558802/166474739-6f4543ab-1805-4aad-9671-76b1b3174c06.png" width=80%>
+<img src="https://user-images.githubusercontent.com/77558802/166701292-622aab04-5a79-4361-af95-94fe83e6ac54.png" width=80%>
 
 Our winning chance increases from 29% (1683/2944) to 54.4% (816/1499). <br />
 We get only 3216 scores, but I find it very consistent and it also loses less scores.
@@ -59,9 +62,17 @@ Our winning chance for test data increases from 50.7% to 58.33%.
 
 # Algo-Trading
 
+[Algo-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Algorithmic_Trading.ipynb)  <br />
+
 The program automatically opens and closes position depending on the market condition.
 
 It handles everything for you, and the only thing you need to do is drinking Mai Tai on the beach.
+
+# Other
+
+If you want to view the market and do the trading at the same time, use [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading.ipynb) and [Live-Plot-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading_plot.ipynb)
+
+The [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading.ipynb) runs [Algo-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Algorithmic_Trading.ipynb)
 
 # Resources
 Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, MetaTrader5, Datetime, Talib, Schedule, Pytz, Isoweek
