@@ -1,4 +1,4 @@
-# AlgoTrading-analysis
+# Trading-analysis
 
 (Trading with time series forecasting using LSTM and some other calculations.)
 
@@ -15,7 +15,7 @@ Green line = Weekly moving average (WMA) <br />
 
 10 years for training model and 2 years for testing model. <br />
   
-Second, We take the first 10 years data and calculate the overall results : 
+We take the first 10 years data and calculate the overall results : 
 
 <img src="https://user-images.githubusercontent.com/77558802/166476885-c173a169-1441-4fe7-8acc-76497ef3f13b.png" width=80%>
 
@@ -47,7 +47,7 @@ To improve the performance, I classify all positions that are closed to each oth
 Our winning chance increases from 29% (1683/2944) to 54.4% (816/1499). <br />
 We get only 3216 scores, but I find it very consistent and it also loses less scores.
 
-We then do logistic regression from different data of each positions, but I find most data are highly uncorrelated to make a good model.
+We then do logistic regression from different data of each positions, but I find most data are too uncorrelated to make a good model.
 
 Our last approach is LSTM time series forecasting model, which performed very well.
 
@@ -57,8 +57,13 @@ Our last approach is LSTM time series forecasting model, which performed very we
 
 Our winning chance for test data increases from 50.7% to 58.33%.
 
+# Algo-Trading
 
+The program automatically opens and closes position depending on the market condition.
 
+It handles everything for you, and the only thing you need to do is drinking Mai Tai on the beach.
+
+# Resources
 Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, Datetime, Talib
 
 
