@@ -1,6 +1,8 @@
 # Trading-analysis
+[Notebook_v2](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Trading_Analysis-v2.ipynb)  <br />
+Original version is too large to view on Github, v2 version removed all Plotly plots. <br />
 
-(Trading with time series forecasting using LSTM and some other calculations.)
+(Trading with time series forecasting using LSTM and some other calculations.) <br />
 
 First, we have the gold market with 12 years of historical data (2010-2022) :
 
@@ -59,9 +61,17 @@ Our winning chance for test data increases from 50.7% to 58.33%.
 
 # Algo-Trading
 
+[Algo-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Algorithmic_Trading.ipynb)  <br />
+
 The program automatically opens and closes position depending on the market condition.
 
 It handles everything for you, and the only thing you need to do is drinking Mai Tai on the beach.
+
+# Other
+
+If you want to view the market and do the trading at the same time, use [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading.ipynb) and [Live-Plot-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading_plot.ipynb)
+
+The [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading.ipynb) runs [Algo-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Algorithmic_Trading.ipynb)
 
 # Resources
 Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, MetaTrader5, Datetime, Talib, Schedule, Pytz, Isoweek
