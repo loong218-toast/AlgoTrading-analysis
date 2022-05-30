@@ -74,6 +74,10 @@ If you want to view the market and do the trading at the same time, use [Live-No
 
 The [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading.ipynb) runs [Algo-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Algorithmic_Trading.ipynb)
 
+# Limitations
+
+The LSTM model works with sklearn MinMaxScaler which transform features scaling each feature to a given range. Since financial markets have not acutal "Min" and "Max" values, the model accuracy can lose over time. Market prices may keep going up or down and may exceed the Min and Max values.
+
 # Resources
 Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, MetaTrader5, Datetime, Talib, Schedule, Pytz, Isoweek
 
