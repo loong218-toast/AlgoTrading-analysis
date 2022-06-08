@@ -4,7 +4,7 @@ Original version is too large to view on Github, v2 version removed all Plotly p
 
 (Trading with time series forecasting using LSTM and some other calculations.) <br />
 
-First, we have the gold market with 12 years of historical data (2010-2022) :
+the gold market with 12 years of historical data (2010-2022) :
 
 
 <img src="https://user-images.githubusercontent.com/77558802/166462259-e973e7f6-9fc3-4664-a148-c2d33a4ba3b1.png" width=80%>
