@@ -41,16 +41,16 @@ For sell, Best TP and SL are 8.0 and 1.5 (16153 scores), and worst TP and SL are
 1 TP is +1 score, and 1 SL is -1 score (depends on the result of each position) <br />
 Basically, High TP and low SL is the best approach to the gold market. <br />
 
-Even we have a low chance of winning, but we have a good risk/reward ratio.
+Even though we have a low chance of winning, but we have a good risk/reward ratio.
 
 To improve the performance, I classify all positions that are closed to each other (24 hours), as I noticed cluster patterns in those positions.
 
 <img src="https://user-images.githubusercontent.com/77558802/166701292-622aab04-5a79-4361-af95-94fe83e6ac54.png" width=80%>
 
 Our winning chance increases from 29% (1683/2944) to 54.4% (816/1499). <br />
-We get only 3216 scores, but I find it very consistent and it also loses less scores.
+We get only 3216 scores, but I find it very consistent and it also loses fewer scores.
 
-We then do logistic regression from different data of each positions, but I find most data are too uncorrelated to make a good model.
+We then do logistic regression from different data of each position, but I find most data are too uncorrelated to make a good model.
 
 Our last approach is LSTM time series forecasting model, which performed very well.
 
@@ -66,7 +66,7 @@ Our winning chance for test data increases from 50.7% to 58.33%.
 
 The program automatically opens and closes position depending on the market condition.
 
-It handles everything for you, and the only thing you need to do is drinking Mai Tai on the beach.
+It handles everything for you, and the only thing you need to do is drink Mai Tai on the beach.
 
 # Other
 
@@ -76,7 +76,7 @@ The [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/
 
 # Limitations
 
-The LSTM model works with data that is preprocessed by sklearn MinMaxScaler which transform features scaling each feature to a given range. Since financial markets have not acutal "Min" and "Max" values, the model accuracy can lose over time. Market prices may keep going up or down and may exceed the Min and Max values.
+The LSTM model works with data that is preprocessed by sklearn MinMaxScaler which transforms features by scaling each feature to a given range. Since financial markets do have not actual "Min" and "Max" values, the model accuracy can lose over time. Market prices may keep going up or down and may exceed the Min and Max values.
 
 # Resources
 Python packages : Pandas, Numpy, Tensorflow, Scikit-learn, Plotly, Matplotlib, MetaTrader5, Datetime, Talib, Schedule, Pytz, Isoweek
