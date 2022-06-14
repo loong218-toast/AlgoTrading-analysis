@@ -1,6 +1,6 @@
 # Trading-analysis
-[Notebook_v2](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Trading_Analysis-v2.ipynb)  <br />
-Original version is too large to view on Github, v2 version removed all Plotly plots. <br />
+
+This trading strategy is derived from my own experience, but I didn't trade with coding & algorithm. Recently, I found some insights from an improved approach.
 
 (Trading with time series forecasting using LSTM and some other calculations.) <br />
 
@@ -69,6 +69,9 @@ The program automatically opens and closes position depending on the market cond
 It handles everything for you, and the only thing you need to do is drink Mai Tai on the beach.
 
 # Other
+
+[Notebook_v2](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/Trading_Analysis-v2.ipynb)  <br />
+Original version of the notebook is too large to view on Github, v2 version removed all Plotly plots. <br />
 
 If you want to view the market and do the trading at the same time, use [Live-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading.ipynb) and [Live-Plot-Notebook](https://github.com/loong218-toast/AlgoTrading-analysis/blob/main/LiveTrading_plot.ipynb)
 
