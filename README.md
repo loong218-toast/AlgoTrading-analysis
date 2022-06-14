@@ -15,7 +15,7 @@ Blue line = Market price <br />
 Red line = Daily moving average (DMA) <br />
 Green line = Weekly moving average (WMA) <br />
 
-10 years for training model and 2 years for testing model. <br />
+10 years of data is used for training model and 2 years of data is used for testing model. <br />
   
 We take the first 10 years data and calculate the overall results : 
 
