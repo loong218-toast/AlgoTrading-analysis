@@ -1,6 +1,6 @@
 # Trading-analysis
 
-This trading strategy is derived from my own experience, but I didn't trade with coding & algorithm. Recently, I found some insights from an improved approach.
+This trading strategy is derived from my own experience, but I didn't trade with coding & algorithm. Recently, I found some insights from this improved approach.
 
 (Trading with time series forecasting using LSTM and some other calculations.) <br />
 
